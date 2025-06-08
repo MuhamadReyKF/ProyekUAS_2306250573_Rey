@@ -26,7 +26,7 @@ int main() {
     double best_kmax = 0, best_K = 0;
     double min_error = DBL_MAX;
 
-    // Grid search sederhana (bisa diganti metode optimasi lebih canggih)
+    // Grid search
     for (double kmax = 0.4; kmax <= 0.6; kmax += 0.001) {
         for (double K = 2.0; K <= 10.0; K += 0.01) {
             double error = calc_error(kmax, K);

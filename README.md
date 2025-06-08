@@ -1,5 +1,8 @@
 # Curve Fitting Model Saturasi (Monod) untuk Data Pertumbuhan Mikroorganisme
-
+```
+Nama    : Muhamad Rey Kafaka Fadlan
+NPM     : 2306250573
+```
 ## :bulb: Deskripsi Program
 
 Program ini merupakan implementasi metode numerik untuk melakukan curve fitting atau regresi nonlinier pada data pertumbuhan mikroorganisme menggunakan model saturasi (Monod). Dengan memasukkan data eksperimen berupa konsentrasi substrat dan laju pertumbuhan, program akan mencari parameter terbaik, yaitu laju pertumbuhan maksimum (`kmax`) dan konstanta setengah saturasi (`K`), yang meminimalkan error antara model dan data aktual.
